@@ -1,14 +1,14 @@
-// Ê¹ÓÃfinal¹Ø¼ü×ÖÐÞÊÎAnimalÀà
+// ä½¿ç”¨finalå…³é”®å­—ä¿®é¥°Animalç±»
 final class Animal {
-	// ·½·¨ÌåÎª¿Õ
+	// æ–¹æ³•ä½“ä¸ºç©º
 }
-// DogÀà¼Ì³ÐAnimalÀà
+// Dogç±»ç»§æ‰¿Animalç±»
 class Dog extends Animal {
-	// ·½·¨ÌåÎª¿Õ
+	// æ–¹æ³•ä½“ä¸ºç©º
 }
-// ¶¨Òå²âÊÔÀà
-class Example06 {
+// å®šä¹‰æµ‹è¯•ç±»
+class Example11 {
 	public static void main(String[] args) {
-		Dog dog = new Dog(); // ´´½¨DogÀàµÄÊµÀý¶ÔÏó
+		Dog dog = new Dog(); // åˆ›å»ºDogç±»çš„å®žä¾‹å¯¹è±¡
 	}
 }
