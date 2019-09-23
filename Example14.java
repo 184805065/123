@@ -1,15 +1,15 @@
-// ¶¨ÒåStudentÀà
+// å®šä¹‰Studentç±»
 class Student {
-	final String name; // Ê¹ÓÃfinal¹Ø¼ü×ÖĞŞÊÎnameÊôĞÔ
-     // ¶¨Òåintroduce()·½·¨£¬´òÓ¡Ñ§ÉúĞÅÏ¢
+	final String name; // ä½¿ç”¨finalå…³é”®å­—ä¿®é¥°nameå±æ€§
+     // å®šä¹‰introduce()æ–¹æ³•ï¼Œæ‰“å°å­¦ç”Ÿä¿¡æ¯
 	public void introduce() {
-		System.out.println("ÎÒÊÇÒ»¸öÑ§Éú£¬ÎÒ½Ğ" + name);
+		System.out.println("æˆ‘æ˜¯ä¸€ä¸ªå­¦ç”Ÿï¼Œæˆ‘å«" + name);
 	}
 }
-// ¶¨Òå²âÊÔÀà
-public class Example09 {
+// å®šä¹‰æµ‹è¯•ç±»
+public class Example14 {
 	public static void main(String[] args) {
-		Student stu = new Student();	// ´´½¨StudentÀàµÄÊµÀı¶ÔÏó					
-		stu.introduce();  // µ÷ÓÃStudentµÄintroduce()·½·¨
+		Student stu = new Student();	// åˆ›å»ºStudentç±»çš„å®ä¾‹å¯¹è±¡					
+		stu.introduce();  // è°ƒç”¨Studentçš„introduce()æ–¹æ³•
 	}
 }
